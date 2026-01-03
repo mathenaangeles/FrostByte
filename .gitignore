@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Snowflake / logs
+*.log
