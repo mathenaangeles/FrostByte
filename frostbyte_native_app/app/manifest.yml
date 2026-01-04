@@ -1,0 +1,15 @@
+manifest_version: 1
+
+artifacts:
+  setup_script: setup_script.sql
+  default_streamlit: APP.FROSTBYTE_UI
+
+references:
+  - INPUT_DATA:
+      label: "Customer input data"
+      description: "Customer-provided table or view used by FrostByte (read-only)"
+      object_type: TABLE
+      privileges:
+        - SELECT
+      multi_valued: false
+      register_callback: CONFIG.REGISTER_REFERENCE
