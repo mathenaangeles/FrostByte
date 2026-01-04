@@ -1,4 +1,4 @@
-# FrostByte## FrostByte Native App
+# FrostByte
 
 FrostByte turns weekly operational metrics into data quality checks, anomaly insights, and forecasts. Each customer connects their own data via an app reference and runs the analysis inside their account.
 
